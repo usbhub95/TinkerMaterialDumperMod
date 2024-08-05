@@ -17,16 +17,17 @@ import usbhub95.ticmatdump.util.Meta;
 
 public class CommandDumpTicMats extends CommandBase {
 
-    private final List<String> aliases = Arrays.asList(new String[]{Meta.MOD_ID, "dumptinkermaterials", "tinkermaterialdump", "dumptinkermats", "tinkermatdump", "dumpticmats", "dtm", "tmd"});
+    private static final String NAME = "dumpticmats";
+    private static final List<String> aliases = Arrays.asList(Meta.MOD_ID, "dumptinkermaterials", "tinkermaterialdump", "dumptinkermats", "tinkermatdump", NAME, "dtm", "tmd");
 
     @Override
     public String getName() {
-        return "dumpticmats";
+        return NAME;
     }
 
     @Override
     public String getUsage(ICommandSender sender) {
-        return "dumpticmats";
+        return NAME;
     }
 
     @Override

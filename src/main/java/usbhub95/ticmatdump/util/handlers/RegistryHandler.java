@@ -13,7 +13,12 @@ import usbhub95.ticmatdump.command.CommandDumpTicMats;
 @EventBusSubscriber
 public class RegistryHandler {
 
+    private RegistryHandler() {
+        throw new IllegalStateException("Attempted to instantiate usbhub95.ticmatdump.util.handlers.RegistryHandler");
+    }
+
     public static void serverRegistries(FMLServerStartingEvent event) {
         event.registerServerCommand(new CommandDumpTicMats());
     }
+
 }
