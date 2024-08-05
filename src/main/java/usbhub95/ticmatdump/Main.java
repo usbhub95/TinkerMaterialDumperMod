@@ -22,9 +22,9 @@ public class Main {
 
     // register loading events
     @EventHandler
-    public static void preInit(FMLPreInitializationEvent event) {}
+    public static void preInit(FMLPreInitializationEvent event) { /* TODO document why this method is empty */ }
     @EventHandler
-    public static void postInit(FMLPostInitializationEvent event) {}
+    public static void postInit(FMLPostInitializationEvent event) { /* TODO document why this method is empty */ }
     @EventHandler
-    public static void init(FMLInitializationEvent event) {}
+    public static void init(FMLInitializationEvent event) { /* TODO document why this method is empty */ }
 }
