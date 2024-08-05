@@ -6,6 +6,6 @@
 
 package usbhub95.ticmatdump.proxy;
 
-public interface ClientProxy extends CommonProxy {
-
+public class ClientProxy extends CommonProxy {
+    // this needs to be a class but I don't need to do anything with it
 }
