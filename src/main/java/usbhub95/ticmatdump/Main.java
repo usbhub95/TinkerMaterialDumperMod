@@ -20,6 +20,7 @@ public class Main {
     public static CommonProxy proxy;
 
     // register event necessary event handlers
+    @EventHandler
     public static void serverInit(FMLServerStartingEvent event) {
         RegistryHandler.serverRegistries(event);
     }
