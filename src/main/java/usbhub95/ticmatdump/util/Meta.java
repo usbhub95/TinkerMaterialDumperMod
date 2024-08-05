@@ -1,3 +1,9 @@
+// Copyright (C) 2024 Cooper Lockrey
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+// This is a utility class that contains metadata used in other places
+
 package usbhub95.ticmatdump.util;
 
 public class Meta {

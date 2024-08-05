@@ -1,3 +1,9 @@
+// Copyright (C) 2024 Cooper Lockrey
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+// This is the main class of the mod
+
 package usbhub95.ticmatdump;
 
 import net.minecraftforge.fml.common.Mod;

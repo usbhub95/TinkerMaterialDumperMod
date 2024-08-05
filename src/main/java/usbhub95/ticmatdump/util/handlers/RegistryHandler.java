@@ -1,3 +1,9 @@
+// Copyright (C) 2024 Cooper Lockrey
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+// This is where we register our command with minecraft
+
 package usbhub95.ticmatdump.util.handlers;
 
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;

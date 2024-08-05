@@ -1,3 +1,9 @@
+// Copyright (C) 2024 Cooper Lockrey
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+// This class determines the behaviour of our command
+
 package usbhub95.ticmatdump.command;
 
 import java.util.Arrays;
@@ -6,7 +12,6 @@ import java.util.List;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.server.MinecraftServer;
 import usbhub95.ticmatdump.util.Meta;
 
