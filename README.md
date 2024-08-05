@@ -107,8 +107,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-My code is distributed under the GNU GPLv3 License. See `LICENSE` for more information.  
-Everything from the template is distributed under the MIT License. See `LICENSE_CLEANROOM` for more information.
+My code (everything in `src/main/java/usbhub95/ticmatdump`) is distributed under the GNU GPLv3 License. See `LICENSE` for more information.  
+Everything from the template (everything else) is distributed under the MIT License. See `LICENSE_CLEANROOM` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
