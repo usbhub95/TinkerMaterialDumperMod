@@ -1,14 +1,12 @@
 package usbhub95.ticmatdump;
 
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import usbhub95.ticmatdump.proxy.CommonProxy;
 import usbhub95.ticmatdump.util.Meta;
+import usbhub95.ticmatdump.util.handlers.RegistryHandler;
 
 @Mod(modid = Meta.MOD_ID, useMetadata = Meta.USE_METADATA)
 public class Main {
@@ -21,12 +19,9 @@ public class Main {
     @SidedProxy(clientSide = Meta.CLIENT_PROXY, serverSide = Meta.COMMON_PROXY)
     public static CommonProxy proxy;
 
-    // register loading events
-    @EventHandler
-    public static void preInit(FMLPreInitializationEvent event) { /* TODO document why this method is empty */ }
-    @EventHandler
-    public static void postInit(FMLPostInitializationEvent event) { /* TODO document why this method is empty */ }
-    @EventHandler
-    public static void init(FMLInitializationEvent event) { /* TODO document why this method is empty */ }
+    // register event necessary event handlers
+    public static void serverInit(FMLServerStartingEvent event) {
+        RegistryHandler.serverRegistries(event);
+    }
 
 }
