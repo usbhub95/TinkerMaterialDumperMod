@@ -18,6 +18,9 @@ import usbhub95.ticmatdump.util.handlers.RegistryHandler;
 @Mod(modid = Meta.MOD_ID, useMetadata = Meta.USE_METADATA)
 public class Main {
 
+    private Main() {
+        throw new IllegalStateException("Attempted to instantiate usbhub95.ticmatdump.Main");
+    }
     // main class of the mod, mod siding, events and such
     @Instance
     public static Main instance;

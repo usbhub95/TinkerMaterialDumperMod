@@ -10,7 +10,7 @@ public class Meta {
 
     // metadata class for info given to @Mod
     private Meta() {
-        throw new IllegalStateException("Attempted to instantiate the Meta class.");
+        throw new IllegalStateException("Attempted to instantiate usbhub95.ticmatdump.util.Meta");
     }
 
     public static final String MOD_ID = "ticmatdump";
