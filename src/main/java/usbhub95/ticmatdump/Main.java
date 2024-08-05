@@ -12,6 +12,7 @@ import usbhub95.ticmatdump.util.Meta;
 
 @Mod(modid = Meta.MOD_ID, useMetadata = Meta.USE_METADATA)
 public class Main {
+
     // main class of the mod, mod siding, events and such
     @Instance
     public static Main instance;
@@ -27,4 +28,5 @@ public class Main {
     public static void postInit(FMLPostInitializationEvent event) { /* TODO document why this method is empty */ }
     @EventHandler
     public static void init(FMLInitializationEvent event) { /* TODO document why this method is empty */ }
+
 }
