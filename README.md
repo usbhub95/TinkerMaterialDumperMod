@@ -107,7 +107,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
+My code is distributed under the GNU GPLv3 License. See `LICENSE` for more information.  
+Everything from the template is distributed under the MIT License. See `LICENSE_CLEANROOM` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +124,7 @@ Project Link: [https://github.com/usbhub95/TinkerMaterialDumperMod](https://gith
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [placeholder acknowledgement](https://some.link/to/acknowledgement)
+* [CleanroomMC/TemplateDevEnv](https://github.com/CleanroomMC/TemplateDevEnv)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
