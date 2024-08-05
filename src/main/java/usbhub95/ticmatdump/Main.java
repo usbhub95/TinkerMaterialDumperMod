@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import usbhub95.ticmatdump.proxy.CommonProxy;
 import usbhub95.ticmatdump.util.Meta;
 
 @Mod(modid = Meta.MOD_ID, useMetadata = Meta.USE_METADATA)
