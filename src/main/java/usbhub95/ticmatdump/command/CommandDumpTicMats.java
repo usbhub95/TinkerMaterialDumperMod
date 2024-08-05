@@ -36,9 +36,7 @@ public class CommandDumpTicMats extends CommandBase {
 
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
-        if(sender instanceof EntityPlayer) {
-            
-        }
+        // TODO add execution logic
     }
-    
+
 }
