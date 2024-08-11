@@ -5,6 +5,7 @@
 // This class contains the logic for gathering and printing the tinker registry
 
 package usbhub95.ticmatdump.command.util;
+import slimeknights.tconstruct.library.TinkerRegistry;
 
 public class DumpTicMats {
 

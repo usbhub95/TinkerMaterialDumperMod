@@ -25,6 +25,7 @@ repositories {
             includeGroup 'maven.modrinth'
         }
     }
+    flatDir name: 'libs', dirs: "$projectDir/libs"
     mavenLocal() // Must be last for caching to work
 }
 
