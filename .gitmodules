@@ -1,0 +1,11 @@
+[submodule "submodules/Mantle"]
+	path = submodules/Mantle
+	url = https://github.com/SlimeKnights/Mantle.git
+	branch = 1.12
+[submodule "submodules/TinkersConstruct"]
+	path = submodules/TinkersConstruct
+	url = https://github.com/SlimeKnights/TinkersConstruct.git
+	branch = 1.12
+[submodule "submodules/constructsarmory"]
+	path = submodules/constructsarmory
+	url = https://github.com/illusivesoulworks/constructsarmory.git
